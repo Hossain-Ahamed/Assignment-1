@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+section {
+    margin-bottom: 5%;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 75%;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h3 {
+
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.card {
+    margin: 1%;
+    border-radius: 15px;
+    height: 50vh;
+    overflow-y: hidden;
+    padding: 0px 2%;
+
+}
+
+.card img {
+    width: 40%;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1% 5%;
+    background-image: linear-gradient(rgb(245, 79, 57), rgb(255, 79, 47));
+    border-radius: 8px;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.flexible-coontainer {
+    display: flex;
+}
+
+.flex-half {
+    width: 50%;
+}
+
+.flex-trice {
+    width: 33.33%;
+}
+
+[class *="flex"] .full-size {
+    width: 80%;
+}
+
+.banner {
+    text-align: center;
+}
+
+.greeting-page {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+
+.title {
+    padding-left: 2%;
+    border-radius: 5%;
+    border-left: 3px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+
+.mission {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mission-left {
+    background-color: rgb(226, 225, 223, 0.5);
+}
+
+.mission-mid {
+    background-color: rgb(255, 180, 88, 0.7);
+}
+
+.mission-right {
+    background-color: rgba(248, 216, 176, 0.9);
+}
