@@ -5,7 +5,7 @@ body {
 }
 
 section {
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 h1 {
@@ -70,19 +70,25 @@ p {
     width: 33.33%;
 }
 
-[class *="flex"] .full-size {
+[class *="flex"] .img-full-size {
     width: 80%;
+}
+[class *="flex"]{
+    padding-left: 4%;
 }
 
 .banner {
     text-align: center;
 }
 
-.greeting-page {
+[class *="page"] {
     padding-left: 10%;
-    padding-top: 5%;
+    padding-right: 10%;
 }
 
+.greeting-page {
+    margin-top: 5%;
+}
 
 .title {
     padding-left: 2%;
@@ -90,11 +96,6 @@ p {
     border-left: 3px solid;
     border-image: linear-gradient(red, yellow);
     border-image-slice: 1;
-}
-
-.mission {
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .mission-left {
@@ -107,4 +108,32 @@ p {
 
 .mission-right {
     background-color: rgba(248, 216, 176, 0.9);
+}
+
+.develop-page {
+    margin-left: 6%;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    background-position:top left ;
+
+
+
+}
+.one-third {
+    width: 34%;
+    
+}
+.two-third {
+    width: 66%;
+}
+
+footer{
+    margin: 0;
+    padding:1% 5%;
+    background-color: black;
+    color: white;
+}
+.footer-text{
+    text-align: center;
 }
